@@ -17,7 +17,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print("Hey, great to see you! Let's solve some US bikeshare data misteries together! We'll have so much fun xD")
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
@@ -171,9 +171,8 @@ def trip_duration_stats(df):
 
     mean_travel_time_s = int(mean_travel_time%60)
     mean_travel_time_m = int(mean_travel_time//60%60)
-    mean_travel_time_h = int(mean_travel_time//3600%60)
 
-    print('Average travel time: {} hours, {} minutes {} seconds'.format(mean_travel_time_h, mean_travel_time_m, mean_travel_time_s))
+    print('Average travel time: {} minutes {} seconds'.format(mean_travel_time_m, mean_travel_time_s))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
