@@ -1,5 +1,5 @@
 ### Date created
-19.06.2020
+19th June 2020
 
 ### Project Title
 Explore US Bikeshare Data
