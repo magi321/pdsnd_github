@@ -171,9 +171,8 @@ def trip_duration_stats(df):
 
     mean_travel_time_s = int(mean_travel_time%60)
     mean_travel_time_m = int(mean_travel_time//60%60)
-    mean_travel_time_h = int(mean_travel_time//3600%60)
 
-    print('Average travel time: {} hours, {} minutes {} seconds'.format(mean_travel_time_h, mean_travel_time_m, mean_travel_time_s))
+    print('Average travel time: {} minutes {} seconds'.format(mean_travel_time_m, mean_travel_time_s))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
