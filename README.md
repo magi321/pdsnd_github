@@ -15,5 +15,8 @@ washington.csv
 
 ### Credits
 Python documentation
+https://docs.python.org/3/tutorial/inputoutput.html#the-string-format-method
 Pandas Documentation
+https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html#compare-with-sql
 StackOverflow
+https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
